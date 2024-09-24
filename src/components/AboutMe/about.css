@@ -1,0 +1,5 @@
+/* In your CSS file */
+.custom-button {
+    border-radius: 12px;
+    background: var(--Primary-1, linear-gradient(257deg, #0698F9 13.5%, #F906F9 87.25%));
+}
