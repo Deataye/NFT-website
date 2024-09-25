@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './components/Header/header';  // Adjust path as necessary
 import Hero from './components/Hero/hero';
 import HotAuctions from './components/HotAuctions/hotauctions';
-import PopularCollections from './components/PopularCollection/Popularcollection';
+import PopularCollections from './components/PopularCollection/popularcollection';
 import TopArtist from './components/TopArtist/topartist';
 import TrendingNfts from './components/TrendingNFTs/trendingNFTs'
 import AboutMe from './components/AboutMe/aboutme';
