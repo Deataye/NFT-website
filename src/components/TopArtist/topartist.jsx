@@ -54,12 +54,16 @@ const TopArtists = () => {
               {/* Artist Image */}
               <div className="relative">
                 <img
-                  src={`/ava.png`} // Replace with actual image sources
+                  src={`/ava.png`} 
                   alt={artist.name}
                   className="w-14 h-14 rounded-full object-cover"
                 />
                 {artist.isVerified && (
-                  <span className="absolute bottom-0 right-0 bg-blue-500 text-white text-xs rounded-full p-1">✔️</span>
+                  <span className="absolute bottom-0 right-0  p-1"> <img 
+                  src="/Verified.png" // Checkmark icon here
+                  alt="Verified"
+                  className="w-5 h-5"
+                /></span>
                 )}
               </div>
 

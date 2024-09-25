@@ -1,0 +1,9 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .shadow-custom {
+    box-shadow: 20px 20px 30px 0px rgba(142, 121, 146, 0.2);
+  }
+  

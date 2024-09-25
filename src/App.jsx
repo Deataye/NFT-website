@@ -7,6 +7,9 @@ import TopArtist from './components/TopArtist/topartist';
 import TrendingNfts from './components/TrendingNFTs/trendingNFTs'
 import AboutMe from './components/AboutMe/aboutme';
 import Browsing from './components/Browsing/browsing'
+import Marketplace from './components/Marketplace/maketplace';
+import WhyMyNFTs from './components/WhyMyNFTs/WhyMyNFts';
+import CreateNFTs from './components/CreateNFTs/createNFts';
 function App() {
   return (
     <div className="App">
@@ -19,6 +22,9 @@ function App() {
       <TrendingNfts/>
       <AboutMe />
       <Browsing/>
+      <Marketplace/>
+      <WhyMyNFTs/>
+      <CreateNFTs/>
       {/* Other components or routes will go here */}
       <main>
         {/* Add your routes or other content */}
