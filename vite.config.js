@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['Hero'], // Replace 'module-name' with the actual module causing the error
+      external: ['Hero','Header'], // Replace 'module-name' with the actual module causing the error
     },
   },
 })
