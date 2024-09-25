@@ -3,16 +3,16 @@ import { FaSearch, FaEllipsisH } from 'react-icons/fa';
 
 const Header = () => {
   return (
-    <header className="bg-[#1F1E45] text-[#969FB6] py-4">
-      <div className="container mx-auto flex items-center justify-between">
+    <header className="bg-[#1F1E45] text-[#969FB6] py-4 ">
+      <div className="container mx-auto flex items-center justify-between px-12">
         
         {/* Logo */}
         <div className="flex items-center">
-          <img src="../../public/Union.png" alt="Logo" className="w-12 h-12" />
+          <img src={`/Union.png`} alt="Logo" className="w-12 h-12" />
         </div>
 
         {/* Links and Icons in one div */}
-        <div className="flex items-center space-x-6">
+        <div className="flex items-center space-x-4 ">
           <nav className="flex space-x-16">
             <a href="/" className="hover:text-white transition duration-300">Home</a>
             <a href="/marketplace" className="hover:text-white transition duration-300">Marketplace</a>

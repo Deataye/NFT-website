@@ -53,7 +53,7 @@ const HotAuctions = () => {
       <div className="container mx-auto">
         
         {/* Section Header */}
-        <div className="flex items-center justify-between mb-6">
+        <div className="flex items-center justify-between mb-6 px-10">
           <div className="flex items-center space-x-4">
             <h2 className="text-2xl font-semibold">Hot Auctions</h2>
             {/* Dropdown */}
@@ -81,12 +81,12 @@ const HotAuctions = () => {
           {auctionData.map((item) => (
             <div key={item.id} className=" w-full h-[460px] bg-[#FFFFFF99] rounded-2xl shadow-[0_0_0.5px_0px_rgba(0,0,0,0.1)_inset,6px_12px_18px_0px_rgba(102,146,204,0.1)] hover:shadow-lg transition-shadow duration-300">
               {/* Image */}
-               <div className=' w-full h-[270px] object-cover rounded-[12px] p-4'>
+               <div className=' w-full h-[280px] object-cover rounded-[12px] p-4'>
                <img src={item.image} alt={item.collectionName} className=" " />
 
                 </div>              
               {/* Card Content */}
-              <div className="w-full  px-5  flex flex-col">
+              <div className="w-full  px-5  flex flex-col mt-8">
                 <p className="text-sm text-gray-500">Collection Name:</p>
                 <h3 className="text-lg font-medium">{item.collectionName}</h3>
                 <div className="flex items-center justify-between mt-3">

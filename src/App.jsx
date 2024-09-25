@@ -10,6 +10,7 @@ import Browsing from './components/Browsing/browsing'
 import Marketplace from './components/Marketplace/maketplace';
 import WhyMyNFTs from './components/WhyMyNFTs/WhyMyNFts';
 import CreateNFTs from './components/CreateNFTs/createNFts';
+import Footer from './components/Footer/footer';
 function App() {
   return (
     <div className="App">
@@ -25,6 +26,7 @@ function App() {
       <Marketplace/>
       <WhyMyNFTs/>
       <CreateNFTs/>
+      <Footer/>
       {/* Other components or routes will go here */}
       <main>
         {/* Add your routes or other content */}

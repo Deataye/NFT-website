@@ -98,7 +98,7 @@ const PopularCollections = () => {
         </div>
 
         {/* Galleries Section */}
-        <div className="flex grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-[1080px] h-[364px] ">
+        <div className="flex grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-[1080px] h-[364px] items-center ">
           {galleries.map((gallery) => (
             <div key={gallery.id} className="bg-[rgba(249,249,249,0.7)] shadow-custom p-4 rounded-lg shadow-md w-[350px] h-[270px]">
               {/* Image section */}

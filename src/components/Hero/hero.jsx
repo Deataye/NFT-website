@@ -3,7 +3,7 @@ import { FaArrowRight } from 'react-icons/fa';  // Import the arrow icon
 
 const Hero = () => {
   return (
-    <div className="bg-[#1F1E45] text-white py-20 relative">  {/* Add z-20 */}
+    <div className="bg-[#1F1E45] text-white py-20 relative px-10">  {/* Add z-20 */}
       <div className=" w-full h-full flex items-center justify-between flex-col md:flex-row">
         
         {/* Text Section */}
@@ -19,11 +19,11 @@ const Hero = () => {
         </div>
 
         {/* Image Section */}
-        <div className="flex-1 w-[655px] h-[
-591.89px]">
-          <img src="../../public/illu.png" alt="NFT Art" className=" 
+        <div className="flex-1 w-[690px] h-[
+600.89px]">
+          <img src={`/illu.png`} alt="NFT Art" className=" 
  absolute -bottom-40 left- z-30 w-[
-577.34px] h-[497.53px]" />  {/* Add z-30 */}
+690px] h-[570px]" />  {/* Add z-30 */}
         </div>
 
       </div>
