@@ -3,31 +3,41 @@ import React from 'react';
 const WhyMyNFTs = () => {
   return (
     <div className='bg-[#ECF1FF]'>
-    <div className="w-[1200px] h-[417px] rounded-[32px] bg-[linear-gradient(187deg,rgba(0,0,0,0) -4.48%,rgba(0,0,0,0.80) 57.5%),url('<path-to-image>')] bg-light-gray bg-cover bg-no-repeat flex items-center justify-between p-8">
-      {/* Text Section */}
-      <div className="flex flex-col justify-center text-black w-1/2">
-        <h2 className="text-3xl font-bold mb-2">Why MyNFTs</h2>
-        <p className="mb-4">
-          Discover the unique advantages of owning NFTs through our platform,
-          offering unparalleled access to exclusive digital assets and a vibrant
-          community.
+    <div className=" bg-cover bg-center py-12 px-8 rounded-lg flex justify-between items-center"
+         style={{ backgroundImage: 'url("/path-to-background-image.jpg")' }}>
+      {/* Left Section */}
+      <div className="max-w-md space-y-4">
+        <h2 className="text-white text-3xl font-semibold">Why MyNFT</h2>
+        <p className="text-white text-lg">
+          Are you an artist or NFT project creator? Get in touch with us to get your content on Nifty Gateway!
         </p>
-        <button className="bg-blue-500 w-[240px] text-white rounded-lg px-4 py-2 hover:bg-blue-600 transition">
-          Explore the Marketplace
-        </button>
+        <a href="#" className="inline-block bg-purple-600 text-white py-3 px-6 rounded-full font-semibold hover:bg-purple-700 transition">
+          Explore the marketplace &rarr;
+        </a>
       </div>
 
-      {/* Image Section */}
-      <div className="relative w-1/2 h-full">
-        <img
-          className="w-full h-full rounded-[32px] object-cover"
-          src="/529.png" Replace with your video path
-          
-        />
-        <div className="absolute inset-0 flex items-center justify-center">
-          <button className="">
-            <img src="/Y-icon.png" alt="" />
-          </button>
+      {/* Right Section: YouTube Embed */}
+      <div className="relative">
+        <iframe
+          width="360"
+          height="200"
+          src="https://www.youtube.com/embed/your-video-id"
+          title="Why MyNFT"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          className="rounded-lg shadow-lg"
+        ></iframe>
+        <div className="absolute bottom-4 left-4">
+          <a
+            href="https://www.youtube.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center space-x-2 text-white"
+          >
+            <img src="/path-to-youtube-icon.png" alt="YouTube" className="w-6 h-6" />
+            <span>Watch on YouTube</span>
+          </a>
         </div>
       </div>
     </div>
