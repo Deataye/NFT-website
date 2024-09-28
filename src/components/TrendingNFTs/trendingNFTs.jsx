@@ -60,12 +60,12 @@ const TrendingNFTs = () => {
         {/* Section Header */}
         <div className="flex items-center justify-between mb-6">
           <div className="flex items-center space-x-4">
-            <h2 className="text-2xl font-semibold">Trending NFTs</h2>
+            <h2 className="text-[32px] leading-[48px] font-poppins text-[#21204A] font-semibold">Trending NFTs</h2>
             {/* Dropdown */}
             <select
               value={selectedCategory}
               onChange={handleDropdownChange}
-              className="bg-[#CDE2FE] text-black px-3 py-1 rounded-lg text-sm"
+              className="bg-[#CDE2FE] font-poppins w-[146px] h-[44px] text-[#476285] px-3 py-1 rounded-lg text-lg"
             >
               <option value="Ethereum">Ethereum</option>
               <option value="Crypto">Crypto</option>
@@ -73,11 +73,11 @@ const TrendingNFTs = () => {
             </select>
           </div>
           {/* Time frame buttons */}
-          <div className="flex space-x-2">
+          <div className="flex space-x-2 bg-[#CDE2FE] rounded-lg">
               <button
-                className={`px-4 py-2 rounded-lg ${
+                className={`px-4 py-1 rounded-lg ${
                   selectedTimeFrame === 'Today'
-                    ? 'bg-white text-blue-600 font-semibold'
+                    ? 'bg-[#F0F6FF] text-[#476285] font-poppins font-semibold'
                     : 'text-gray-600'
                 }`}
                 onClick={() => handleTimeFrameChange('Today')}
@@ -85,9 +85,9 @@ const TrendingNFTs = () => {
                 Today
               </button>
               <button
-                className={`px-4 py-2 rounded-lg ${
+                className={`px-4 py-2  rounded-lg ${
                   selectedTimeFrame === 'This Week'
-                    ? 'bg-white text-blue-600 font-semibold'
+                    ? 'bg-[#F0F6FF] text-[#476285] font-poppins font-semibold'
                     : 'text-gray-600'
                 }`}
                 onClick={() => handleTimeFrameChange('This Week')}
@@ -97,7 +97,7 @@ const TrendingNFTs = () => {
               <button
                 className={`px-4 py-2 rounded-lg ${
                   selectedTimeFrame === 'This Month'
-                    ? 'bg-white text-blue-600 font-semibold'
+                    ? 'bg-[#F0F6FF] text-[#476285] font-poppins font-semibold'
                     : 'text-gray-600'
                 }`}
                 onClick={() => handleTimeFrameChange('This Month')}
@@ -108,9 +108,11 @@ const TrendingNFTs = () => {
           
           {/* See All and Slider Controls */}
           <div className="flex items-center space-x-3 z-50">
-            <button className="text-blue-600 hover:underline text-sm">See All</button>
-            <FaArrowLeft className="cursor-pointer text-blue-600 hover:text-black" />
-            <FaArrowRight className="cursor-pointer text-blue-600 hover:text-black" />
+            <button className="text-blue-600 font-poppins font-normal flex p-[10px] px-[24px] justify-center items-center gap-[10px] rounded-[12px] border-2 border-[#6692CC] hover:underline text-md">
+              See all
+            </button>
+            <FaArrowLeft className="flex p-2 items-start w-[45px] h-[45px] rounded-[12px] border-2 border-[#6692CC]  cursor-pointer text-blue-600 hover:text-black" />
+            <FaArrowRight className="flex p-2 items-start w-[45px] h-[45px] rounded-[12px] border-2 border-[#6692CC]  cursor-pointer text-blue-600 hover:text-black" />
           </div>
         </div>
 

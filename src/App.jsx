@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css'
 import Header from './components/Header/header';  // Adjust path as necessary
 import Hero from './components/Hero/hero';
 import HotAuctions from './components/HotAuctions/hotauctions';

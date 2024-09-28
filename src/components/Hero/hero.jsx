@@ -8,22 +8,23 @@ const Hero = () => {
         
         {/* Text Section */}
         <div className="flex-1 mb-8 md:mb-0">
-          <h1 className="w-[479px] h-[96px] text-[40px] font-bold leading-[48px] text-left ml-20  ">Discover Amazing NFTs</h1>
-          <p className="text-[14px] font-normal leading-[22px] text-left w-[479px] h-[66px] ml-20">
-            Explore the world of non-fungible tokens and buy, sell, or create your own digital art.
+          <h1 className="w-[479px] h-[106px] text-[40px]  font-poppins font-bold leading-[48px] text-left ml-20  ">Discover, collect, and sell extraordinary NFTs</h1>
+          <p className="text-[14px] poppins font-normal leading-[22px] text-left w-[479px] h-[126px]  ml-20">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
           </p>
-          <button className="bg-yellow-400 text-black px-6 py-3 rounded-lg hover:bg-yellow-500 transition duration-300 flex items-center ml-20">
-            Get Started 
-            <FaArrowRight className="ml-2" />  {/* Arrow icon added */}
-          </button>
+          <button className="flex items-center justify-between px-4 py-3 w-[192px] h-[48px] leading-[24px] text-[18px] text-white bg-gradient-to-r from-blue-500 to-purple-600 rounded-xl font-poppins transition-all hover:opacity-90 ml-20">
+  Explore now
+  <img src='/531.png' className="-mr-3" alt="arrow icon" />  {/* Arrow icon aligned at the end */}
+</button>
+
         </div>
 
         {/* Image Section */}
-        <div className="flex-1 w-[690px] h-[
-600.89px]">
+        <div className="flex-1  w-[690px] h-[
+610.89px]">
           <img src={`/illu.png`} alt="NFT Art" className=" 
- absolute -bottom-40 left- z-30 w-[
-690px] h-[570px]" />  {/* Add z-30 */}
+ absolute -bottom-40 left-50 z-50 w-[
+690px] h-[600px]" />  {/* Add z-30 */}
         </div>
 
       </div>

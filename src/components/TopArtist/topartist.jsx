@@ -24,12 +24,12 @@ const TopArtists = () => {
         {/* Section Header */}
         <div className="flex items-center justify-between mb-6">
         <div className="flex items-center space-x-4">
-          <h2 className="text-2xl font-semibold">Top artists</h2>
+          <h2 className="text-[32px] leading-[48px] font-poppins text-[#21204A] font-semibold">Top artists</h2>
           {/* Dropdown */}
           <select
               value={selectedCategory}
               onChange={handleDropdownChange}
-              className="bg-white text-black px-3 py-1 rounded-lg text-sm"
+              className="bg-[#CDE2FE] font-poppins w-[146px] h-[44px] text-[#476285] px-3 py-1 rounded-lg text-lg"
             >
               <option value="Music">Music</option>
               <option value="Art">Art</option>
@@ -40,7 +40,9 @@ const TopArtists = () => {
           <div className="flex items-center space-x-4">
             
             {/* See All Button */}
-            <button className="text-blue-600 hover:underline text-sm">See all</button>
+            <button className="text-blue-600 font-poppins font-normal flex p-[10px] px-[24px] justify-center items-center gap-[10px] rounded-[12px] border-2 border-[#6692CC] hover:underline text-md">
+              See all
+            </button>
           </div>
         </div>
 
