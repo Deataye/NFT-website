@@ -2,39 +2,39 @@ import React from 'react';
 
 const Banner = () => {
   return (
-    <div className='bg-[#ECF1FF] py-[180px] mx-auto'>
-    <div className="bg-[#7589c3] py-8 px-6  flex justify-between items-center rounded-lg">
-      {/* Left Section */}
-      <div className="flex flex-col space-y-4">
-        <h2 className="text-white text-lg font-semibold">
-          Download <span className="font-bold">MyNFTs app</span> to track your NFT portfolio and discover drops
-        </h2>
-        <div className="flex space-x-4">
-          {/* App Store Button */}
-          <a href="#" className="bg-white text-[#7589c3] py-2 px-4 rounded-lg font-semibold shadow-md hover:bg-gray-200 transition">
-            <i className="fab fa-apple mr-2"></i> App Store
-          </a>
-          {/* Google Play Button */}
-          <a href="#" className="bg-white text-[#7589c3] py-2 px-4 rounded-lg font-semibold shadow-md hover:bg-gray-200 transition">
-            <i className="fab fa-google-play mr-2"></i> Google Play
-          </a>
+    <div className='py-[120px] bg-[#ECF1FF]'>
+    <div className="flex justify-between items-center bg-[#5C6D99] p-8 rounded-2xl shadow-lg max-w-6xl mx-auto">
+      
+      {/* Left Section - Text and Buttons */}
+      <div className="flex flex-col gap-4">
+        <p className="text-white text-lg font-semibold">
+          Download MyNFTs app to track your NFT portfolio and discover drops
+        </p>
+        <div className="flex gap-4">
+          <button className="bg-[#CDE2FE] text-gray-700 font-semibold py-2 px-4 rounded-lg flex items-center">
+            <img src="/apple.png" alt="App Store" className="w-5 h-5 mr-2" />
+            App Store
+          </button>
+          <button className="bg-[#CDE2FE] text-gray-700 font-semibold py-2 px-4 rounded-lg flex items-center">
+            <img src="/google.png" alt="Google Play" className="w-5 h-5 mr-2" />
+            Google Play
+          </button>
         </div>
       </div>
 
-      {/* Right Section */}
-      <div className="flex items-center space-x-10">
-        {/* Mockup Phones */}
-        <div className="flex mr-[120px]">
-          <img src="530.png" alt="Phone 1" className="w-50 h-auto" />
-          
-        </div>
-
-        {/* QR Code */}
-        <div className="text-center">
-          <img src="QRcode.png" alt="QR Code" className="w-20 h-20" />
-          <p className="text-white mt-2">Scan to download<br />MyNFT app</p>
-        </div>
+      {/* Middle Section - Phones */}
+      <div className="flex items-center justify-center">
+        <img src="/530.png" alt="Phone Mockup" className="w-80 h-auto" />
       </div>
+
+      {/* Right Section - QR Code */}
+      <div className="flex flex-col items-center gap-2">
+        <img src="/QRcode.png" alt="QR Code" className="w-24 h-24" />
+        <p className="text-white text-center">
+          Scan to download MyNFT app
+        </p>
+      </div>
+      
     </div>
     </div>
   );
