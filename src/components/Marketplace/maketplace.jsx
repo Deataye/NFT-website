@@ -3,7 +3,7 @@ import './marketplace.css';
 
 const Marketplace = () => {
   return (
-    <section className="bg-[#ECF1FF] py-10">
+    <section className="bg-[#ECF1FF] py-[100px]">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between space-y-10 md:space-y-0 px-8">
         
         {/* Left Section: Text and Button */}

@@ -51,7 +51,7 @@ const TrendingNFTs = () => {
   ];
 
   return (
-    <section className="bg-[#ECF1FF] text-black flex flex-col items-center px-[90px] gap-8 py-16 relative">
+    <section className="bg-[#ECF1FF] text-black flex flex-col items-center px-[90px] gap-8 py-[100px] relative">
       <div className="container mx-auto">
         
         {/* Section Header */}

@@ -42,7 +42,7 @@ const PopularCollections = () => {
   ];
 
   return (
-    <section className="bg-[#ECF1FF] px-[90px] py-8">
+    <section className="bg-[#ECF1FF] px-[90px] py-[100px]">
       <div className="container mx-auto">
         {/* Section Header */}
         <div className="flex justify-between items-center mb-6">

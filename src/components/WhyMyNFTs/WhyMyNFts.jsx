@@ -2,8 +2,8 @@ import React from 'react';
 
 const WhyMyNFT = () => {
   return (
-    <div className='bg-[#ECF1FF]'>
-    <div className="w-[1200px] h-[417px]  mx-auto bg-[url('/bg-image2.jpg')] p-8 rounded-2xl shadow-lg flex items-center justify-between">
+    <div className='bg-[#ECF1FF] py-[100px]'>
+    <div className="w-[1200px] h-[417px]  mx-auto bg-[url('/bg-2.jpg')] p-8 rounded-2xl shadow-lg flex items-center justify-between">
       {/* Left Section - Text */}
       <div className="w-1/2">
         <h2 className="text-3xl font-semibold text-white">Why MyNFT</h2>

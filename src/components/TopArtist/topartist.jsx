@@ -18,7 +18,7 @@ const TopArtists = () => {
   ];
 
   return (
-    <section className="bg-[#ECF1FF] text-black py-16">
+    <section className="bg-[#ECF1FF] text-black py-[100px]">
       <div className="container mx-auto">
 
         {/* Section Header */}

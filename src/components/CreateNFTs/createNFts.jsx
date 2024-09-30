@@ -2,7 +2,7 @@ import React from 'react';
 
 const CreateNFTs = () => {
   return (
-    <div className="bg-[#ECF1FF] py-12 px-4"> {/* Background color for the main container */}
+    <div className="bg-[#ECF1FF] py-[100px] px-4"> {/* Background color for the main container */}
       <div className="max-w-screen-lg mx-auto">
         <h2 className="text-4xl font-bold text-center mb-8">Create and Sell Your NFTs</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
